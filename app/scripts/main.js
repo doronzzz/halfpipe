@@ -4,12 +4,14 @@ define('my-app',
   [
     // Add your dependencies here
     'jquery',
-    'jquery-ujs'
+    'jquery-ujs',
+    'myNewMod',
+    'nestedMod'
   ],
 
-  function($){
-
+  function($,ui,myNewMod,nested){
+    alert(nested);
       // Add your initialization code here
-      alert('hello world')
+
   }
 );

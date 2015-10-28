@@ -7,9 +7,8 @@ requirejs.config({
   paths: {
     'my-app': 'main',
     'jquery': '../../../../../bower_components/jquery/dist/jquery',
-
+    'nestedMod':'nestedMods/nestedMod',
     'jquery-ujs': '../../../../../bower_components/jquery-ujs/src/rails'
 
   }
 })
-

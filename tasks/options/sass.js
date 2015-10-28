@@ -9,7 +9,7 @@ module.exports = {
     dest: '<%= dirs.tmp %>/public/assets/styles/main.css',
     options: {
       style: 'expanded',
-      //sourcemap: 'true'
+      sourcemap: 'true'
     }
   },
   "public": {
